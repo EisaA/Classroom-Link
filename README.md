@@ -3,6 +3,8 @@ Software Engineering Project
 
 This was a project done for our Second Year Software Engineering Project. We aim to develop a prototype web application in Java solving a real world issue. This project consisted of four memebrs including myself, Mohammed Haaris Moghal, Shahbaz Farnood, Alexander Kovalkovas and Eisa Abdullah Masud Anwar.
 
+To run the prototype please click the "ClassroomLink" java executable. The default password for the Admin Page is "password". 
+
 There has been a growing disconnect between teachers and guardians. Many are
 not as informed about their child's performance at school as they would like to be.
 Parent’s evening is one event that tries to alleviate this issue but as it only occurs
