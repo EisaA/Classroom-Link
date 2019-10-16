@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #d8fffc;" id="AnchorPane"  prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classroomlink.StudentMainPageController">
+   <children>
+      <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classroom Link" wrappingWidth="365.2734375">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <Button fx:id ="logoutButton" onAction="#logout" layoutX="1267.0" layoutY="15.0" mnemonicParsing="false" text="Logout">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <Line endX="1200.0" layoutX="200.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" startX="-100.0" strokeWidth="3.0" />
+      <ListView layoutX="222.0" layoutY="191.0" prefHeight="395.0" prefWidth="1057.0" />
+      <Text layoutX="222.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student List">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Button layoutX="1033.0" layoutY="605.0" mnemonicParsing="false" text="View Students Work" />
+      <Text layoutX="222.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INFO: Select a Student form the list then click &quot;View Subject Work&quot;">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Text>
+      
+   </children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane style="-fx-background-color: #d8fffc;" id="AnchorPane"  prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classroomlink.FXMLUploadWorkController">
+    <children>
+        <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classroom Link" wrappingWidth="365.2734375">
+            <font>
+                <Font size="51.0" />
+            </font>
+        </Text>
+        <Button fx:id="logoutButton" layoutX="1267.0" layoutY="25.0" mnemonicParsing="false" onAction="#logout" text="Logout">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Button fx:id="back" layoutX="1119.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" text="Back">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Line endX="1200.0" layoutX="200.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" startX="-100.0" strokeWidth="3.0" />
+      <Text layoutX="99.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Upload Work">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <TextField fx:id="title" layoutX="989.0" layoutY="202.0" prefHeight="51.0" prefWidth="399.0" />
+      <TextField fx:id="grade" layoutX="988.0" layoutY="335.0" prefHeight="51.0" prefWidth="399.0" />
+      <ListView fx:id="StudentsList" layoutX="232.0" layoutY="202.0" prefHeight="516.0" prefWidth="459.0" />
+      <Text layoutX="99.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="823.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="823.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grade">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="823.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comment">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Separator layoutX="743.0" layoutY="205.0" orientation="VERTICAL" prefHeight="516.0" prefWidth="10.0" />
+      <Button layoutX="823.0" layoutY="661.0" mnemonicParsing="false" onAction="#submit" prefHeight="57.0" prefWidth="561.0" text="Submit">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <TextField fx:id="subject" layoutX="989.0" layoutY="268.0" prefHeight="51.0" prefWidth="399.0" />
+      <Text layoutX="823.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="comment" layoutX="988.0" layoutY="408.0" prefHeight="51.0" prefWidth="399.0" />
+    </children>
+</AnchorPane>

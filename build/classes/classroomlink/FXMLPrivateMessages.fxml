@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane style="-fx-background-color: #d8fffc;" id="AnchorPane"  prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classroomlink.FXMLPrivateMessagesController">
+    <children>
+        <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classroom Link" wrappingWidth="365.2734375">
+            <font>
+                <Font size="51.0" />
+            </font>
+        </Text>
+        <Button fx:id="logoutButton" layoutX="1283.0" layoutY="25.0" mnemonicParsing="false" onAction="#logout" text="Logout">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Line endX="1200.0" layoutX="200.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" startX="-100.0" strokeWidth="3.0" />
+        <Label layoutX="786.0" layoutY="110.0" prefHeight="73.0" prefWidth="349.0" text="Your Messages">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="1165.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <Separator layoutX="747.0" layoutY="133.0" orientation="VERTICAL" prefHeight="665.0" prefWidth="4.0" />
+      <Separator layoutX="-3.0" layoutY="133.0" prefHeight="0.0" prefWidth="1000.0" />
+      <Label layoutX="38.0" layoutY="110.0" prefHeight="73.0" prefWidth="335.0" text="Send Message">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Textfield2" layoutX="183.0" layoutY="465.0" prefHeight="51.0" prefWidth="541.0" />
+      <TextArea fx:id="Textarea2" layoutX="183.0" layoutY="534.0" onKeyPressed="#handleEnter" prefHeight="173.0" prefWidth="541.0" wrapText="true" />
+      <TextArea fx:id="Textarea" editable="false" layoutX="921.0" layoutY="171.0" prefHeight="279.0" prefWidth="541.0" wrapText="true" />
+      <Label layoutX="38.0" layoutY="183.0" text="Recipient" />
+      <Label layoutX="35.0" layoutY="534.0" text="Message" />
+      <Label layoutX="35.0" layoutY="473.0" text="Subject" />
+      <Button layoutX="38.0" layoutY="720.0" mnemonicParsing="false" onMouseClicked="#handleSubmit" prefHeight="51.0" prefWidth="690.0" text="Send">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <TextArea fx:id="Textarea1" editable="false" layoutX="921.0" layoutY="476.0" prefHeight="301.0" prefWidth="541.0" wrapText="true" />
+      <Label layoutX="786.0" layoutY="183.0" text="Received" />
+      <Label layoutX="786.0" layoutY="480.0" text="Sent" />
+      <Separator layoutX="500.0" layoutY="465.0" prefHeight="3.0" prefWidth="500.0" />
+      <Button layoutX="892.0" layoutY="25.0" mnemonicParsing="false" onMouseClicked="#handleRefresh" text="Refresh Messages">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <ListView fx:id = "contacts" layoutX="182.0" layoutY="183.0" prefHeight="265.0" prefWidth="541.0" />
+    </children>
+</AnchorPane>

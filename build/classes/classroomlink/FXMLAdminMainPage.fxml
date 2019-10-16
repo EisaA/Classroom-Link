@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #d8fffc;" id="AnchorPane"  prefHeight="750" prefWidth="1500" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classroomlink.FXMLAdminMainPageController"> 
+      
+    <children>
+        <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classroom Link" wrappingWidth="365.2734375">
+            <font>
+                <Font size="51.0" />
+            </font>
+        </Text>
+        <Button fx:id="logoutButton" layoutX="1267.0" layoutY="15.0" mnemonicParsing="false" onAction="#logout" text="Logout">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Line endX="1200.0" layoutX="200.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" startX="-100.0" strokeWidth="3.0" />
+        <Button fx:id="addAccount" layoutX="99.0" layoutY="168.0" mnemonicParsing="false" onAction="#addAccount" text="Add Account">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+        <Button fx:id="editAccount" layoutX="99.0" layoutY="356.0" mnemonicParsing="false" onAction="#editAccount" text="Edit Account">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+        <Button fx:id="RemoveAccount" layoutX="99.0" layoutY="262.0" mnemonicParsing="false" onAction="#removeAccount" text="Remove Account">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+        <Button fx:id="LinkTS" layoutX="99.0" layoutY="533.0" mnemonicParsing="false" onAction="#LinkTeacherStudent" text="Link Teacher to Student">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+        <Button fx:id="LinkPS" layoutX="99.0" layoutY="445.0" mnemonicParsing="false" onAction="#LinkGuardianStudent" text="Link Parent to Student">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+        <TextField fx:id="ID" layoutX="234.0" layoutY="101.0" text="ID" visible="false" />
+        <TextField fx:id="firstName" layoutX="234.0" layoutY="207.0" text="First Name" visible="false" />
+        <TextField fx:id="lastName" layoutX="234.0" layoutY="262.0" text="Last Name" visible="false" />
+        <TextField fx:id="type" layoutX="234.0" layoutY="155.0" text="Type of User" visible="false" />
+        <TextField fx:id="Other" layoutX="234.0" layoutY="315.0" text="Year/Child ID/Subject" visible="false" />
+    </children>
+</AnchorPane>

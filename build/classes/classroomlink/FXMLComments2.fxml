@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #d8fffc;" id="AnchorPane"  prefHeight="750.0" prefWidth="1500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="classroomlink.FXMLComments2Controller">
+    <children>
+        <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classroom Link" wrappingWidth="365.2734375">
+            <font>
+                <Font size="51.0" />
+            </font>
+        </Text>
+        <Button fx:id="logoutButton" layoutX="1281.0" layoutY="25.0" mnemonicParsing="false" onAction="#logout" text="Logout">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Line endX="1200.0" layoutX="200.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" startX="-100.0" strokeWidth="3.0" />
+
+
+        <ListView fx:id="comments" layoutX="99.0" layoutY="221.0" prefHeight="406.0" prefWidth="1303.0" />
+      <Button onAction = "#back" layoutX="99.0" layoutY="653.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button onAction = "#addComment" layoutX="1191.0" layoutY="653.0" mnemonicParsing="false" text="Add Comment">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Text layoutX="99.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comments">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
