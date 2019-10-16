@@ -1,0 +1,8 @@
+1,Eisa,Anwar,Student,helloEA
+2,Sajid,Alam,Student,helloSA
+3,Shahbaz,Farnood,Teacher,helloSF
+4,Haaris,Moghal,Guardian,helloHM
+5,Alex,Kovalkovas,Guardian,helloAK
+6,John,Smith,Parent,Password
+7,h,d,Teacher,ytdne
+8,E,A,null,45
