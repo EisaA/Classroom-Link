@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #d8fffc;" id="AnchorPane" prefHeight="750" prefWidth="1500" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classroomlink.FXMLDocumentController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0088ff2b" height="461.0" layoutX="462.0" layoutY="162.0" stroke="BLACK" strokeType="INSIDE" width="576.0" />
+        <Button fx:id="button" layoutX="897.0" layoutY="538.0" onAction="#login" text="Login">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="716.0" layoutY="643.0" minHeight="16" minWidth="69" />
+      <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classroom Link" wrappingWidth="365.2734375">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <Button layoutX="488.0" layoutY="538.0" mnemonicParsing="false" onAction="#adminLogin" text="Admin Login">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+      <TextField fx:id="userNameTextField" layoutX="635.0" layoutY="325.0" onAction="#login" prefHeight="51.0" prefWidth="376.0">
+         <font>
+            <Font size="27.0" />
+         </font></TextField>
+      <Text layoutX="486.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="486.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="133.2275390625">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="674.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+         <font>
+            <Font size="62.0" />
+         </font>
+      </Text>
+      <Line endX="1200.0" layoutX="200.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" startX="-100.0" strokeWidth="3.0" />
+      <PasswordField fx:id="passwordTextField" layoutX="635.0" layoutY="409.0" prefHeight="51.0" prefWidth="376.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </PasswordField>
+    </children>
+</AnchorPane>

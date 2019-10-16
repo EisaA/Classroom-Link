@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #d8fffc;" id="AnchorPane"  prefHeight="750.0" prefWidth="1500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="classroomlink.FXMLAdminController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0088ff2b" height="296.0" layoutX="462.0" layoutY="162.0" stroke="BLACK" strokeType="INSIDE" width="576.0" />
+      <Label fx:id="label" layoutX="716.0" layoutY="643.0" minHeight="16" minWidth="69" />
+      <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classroom Link" wrappingWidth="365.2734375">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <Button layoutX="478.0" layoutY="372.0" mnemonicParsing="false" onAction="#userLogin" text="User Login">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+
+      <Text layoutX="478.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="133.2275390625">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="478.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrator Login">
+         <font>
+            <Font size="62.0" />
+         </font>
+      </Text>
+      <Line endX="1200.0" layoutX="200.0" layoutY="100.0" nodeOrientation="LEFT_TO_RIGHT" startX="-100.0" strokeWidth="3.0" />
+      <PasswordField fx:id="passwordTextField" layoutX="645.0" layoutY="285.0" prefHeight="51.0" prefWidth="376.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </PasswordField>
+      <Button onAction = "#login" layoutX="907.0" layoutY="372.0" mnemonicParsing="false" text="Login">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
